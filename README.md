@@ -19,3 +19,15 @@
 
 ## P. S.
 За отведённое время реализована основная структура проекта, но из-за нехватки времени не были написаны тесты.
+
+## Запуск проекта:
+mkdir build
+cd build
+cmake ..
+make
+./a.out "full path to file"
+
+# Запуск обработки картинки:
+cd PictureProcessing
+python3 ReadPNG.py
+name
