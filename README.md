@@ -22,12 +22,18 @@
 
 ## Запуск проекта:
 mkdir build
+
 cd build
+
 cmake ..
+
 make
+
 ./a.out "full path to file"
 
-# Запуск обработки картинки:
+## Запуск обработки картинки:
 cd PictureProcessing
+
 python3 ReadPNG.py
+
 name
